@@ -156,8 +156,6 @@ The following will only happen if you agree on the prompt
 - Trackpad: map bottom right corner to right-click
 - Increase sound quality for Bluetooth headphones/headsets
 - Enable full keyboard access for all controls (e.g. enable Tab in modal dialogs)
-- Use scroll gesture with the Ctrl (^) modifier key to zoom
-- Follow the keyboard focus while zoomed in
 - Disable press-and-hold for keys in favor of key repeat
 - Set a blazingly fast keyboard repeat rate:
 - Set language and text formats (english/US)
@@ -172,7 +170,6 @@ The following will only happen if you agree on the prompt
 - Enable HiDPI display modes (requires restart)
 
 ## Finder Configs
-- Keep folders on top when sorting by name (Sierra only)
 - Allow quitting via ⌘ + Q; doing so will also hide desktop icons
 - Disable window animations and Get Info animations
 - Set Desktop as the default location for new Finder windows
