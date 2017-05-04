@@ -1,4 +1,9 @@
-[![Beerpay](https://beerpay.io/atomantic/dotfiles/badge.svg?style=flat-square)](https://beerpay.io/atomantic/dotfiles)
+# SDooman's dotfiles
+
+These are my dotfiles, which are a fork 
+of [Adam Eivy's](https://github.com/atomantic/dotfiles) dotfiles 
+for automatic system configuration.
+
 
 # \\[._.]/ - Hi, I'm the MacOS bot
 
@@ -69,8 +74,6 @@ The bottom right is running `vtop`
 To launch fullscreen, hit `Command + Enter` in iTerm, then use `Command + d` and `Command + D` to create split panes.
 
 
-\\[._.]/ - I'm so excited I just binaried in my pants!
-
 # Watch me run!
 ![Running](http://media.giphy.com/media/5xtDarwenxEoFeIMEM0/giphy.gif)
 
@@ -99,44 +102,18 @@ If you have existing dotfiles for configuring git, zsh, vim, etc, these will be 
 
 > The restore script does not currently restore system settings--only your original dotfiles. To restore system settings, you'll need to manually undo what you don't like (so don't forget to fork, review, tweak)
 
-
-# 3.x.x+ Upgrade Instructions!
-
-`3.0.0` brings huge changes. If you have made any modifications (and didn't make your own fork), you will want to backup your dotfiles prior to running `git-up` or `git pull` on `~/.dotfiles`.
-
-Do the following to upgrade your ~/.dotfiles safely:
-
-1. backup your dotfiles: `cp -R ~/.dotfiles ~/.dotfiles_old`
-2. `cd ~/.dotfiles`
-3. update dotfiles: `git-up` or `git pull`
-4. remove old submodule location: `rm -rf .vim` (now lives in `homedir/.vim`)
-5. inspect `install.sh` and `config.js` to make sure all the software you want is installed
-6. inspect `homedir/*` for any changes you want to port from `./dotfiles_old`
-7. run `install.sh` again
-
 # Additional
 
 ## VIM as IDE
-I am moving away from using `Atom` and instead using `vim` as my IDE. I use Vundle to manage vim plugins (instead of pathogen). Vundle is better in many ways and is compatible with pathogen plugins. Additionally, vundle will manage and install its own plugins so we don't have to use git submodules for all of them.
+I use `vim` as my IDE, and Vundle to manage my vim plugins.
 
-## Crontab
-You can `cron ~/.crontab` if you want to add my nightly cron software updates.
-
-> \\[0_0]/ - Note that this may wake you in the morning to compatibility issues so use only if you like being on the edge
-
-## Remap Caps-Lock
-- I highly recommend remapping your Caps Lock key to Control per [Dr. Bunsen](http://www.drbunsen.org/remapping-caps-lock/):
-![Remap Caps Lock](https://raw.githubusercontent.com/atomantic/dotfiles/master/img/remap_capslock.png)
-
-# Settings
+# SDooman's Settings
 This project changes a number of settings and configures software on MacOS.
 Here is the current list:
 
 ## Prompt Driven Configuration
 The following will only happen if you agree on the prompt
 - install a gitshots script to take a photo using your camera on every git commit (these go in as a post-commit hook to your .git_template)
-- overwrite your /etc/hosts file with a copy from someonewhocares.org (see ./configs/hosts for the file that will be used)
-- replace the system wallpaper with `img/wallpaper.jpg`
 
 ## SSD-specific tweaks  
 - Disable local Time Machine snapshots
@@ -146,16 +123,13 @@ The following will only happen if you agree on the prompt
 ## General System Changes
 - always boot in verbose mode (not MacOS GUI mode)
 - Disable the sound effects on boot
-- Menu bar: disable transparency
-- Menu bar: hide the Time Machine, Volume, User, and Bluetooth icons
-- Set highlight color to green
+- Menu bar: hide the Time Machine, User icons
 - Set sidebar icon size to medium
 - Always show scrollbars
 - Increase window resize speed for Cocoa applications
 - Expand save panel by default
 - Expand print panel by default
 - allow 'locate' command
-- Set standby delay to 24 hours (default is 1 hour)
 - Save to disk (not to iCloud) by default
 - Automatically quit printer app once the print jobs complete
 - Disable the “Are you sure you want to open this application?” dialog
@@ -165,8 +139,6 @@ The following will only happen if you agree on the prompt
 - Disable the crash reporter
 - Set Help Viewer windows to non-floating mode
 - Reveal IP, hostname, OS, etc. when clicking clock in login window
-- Restart automatically if the computer freezes
-- Never go into computer sleep mode
 - Check for software updates daily, not just once per week
 - Disable smart quotes as they’re annoying when typing code
 - Disable smart dashes as they’re annoying when typing code
