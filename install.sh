@@ -879,6 +879,7 @@ bot "Spotlight"
 running "Disable Spotlight indexing for any volume that gets mounted and has not yet been indexed"
 # Use `sudo mdutil -i off "/Volumes/foo"` to stop indexing any volume.
 sudo defaults write /.Spotlight-V100/VolumeConfiguration Exclusions -array "/Volumes";ok
+
 running "Change indexing order and disable some file types from being indexed"
 defaults write com.apple.spotlight orderedItems -array \
   '{"enabled" = 1;"name" = "APPLICATIONS";}' \
@@ -923,7 +924,7 @@ bot "Terminal & iTerm2"
 
 #running "Enable “focus follows mouse” for Terminal.app and all X11 apps"
 # i.e. hover over a window and start `typing in it without clicking first
-defaults write com.apple.terminal FocusFollowsMouse -bool true
+#defaults write com.apple.terminal FocusFollowsMouse -bool true
 #defaults write org.x.X11 wm_ffm -bool true;ok
 running "Installing the Solarized Light theme for iTerm (opening file)"
 open "./configs/Solarized Light.itermcolors";ok
