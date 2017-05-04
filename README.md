@@ -194,13 +194,10 @@ The following will only happen if you agree on the prompt
 - Expand the following File Info panes: “General”, “Open with”, and “Sharing & Permissions”
 
 ## Dock & Dashboard
-- Enable highlight hover effect for the grid view of a stack (Dock)
-- Set the icon size of Dock items to 36 pixels
 - Change minimize/maximize window effect to scale
 - Minimize windows into their application’s icon
 - Enable spring loading for all Dock items
 - Show indicator lights for open applications in the Dock
-- Don’t animate opening applications from the Dock
 - Speed up Mission Control animations
 - Don’t group windows by application in Mission Control
 - Disable Dashboard
@@ -214,9 +211,7 @@ The following will only happen if you agree on the prompt
 - Reset Launchpad, but keep the desktop wallpaper intact
 
 ## Configuring Hot Corners
-- Top left screen corner → Mission Control
-- Top right screen corner → Desktop
-- Bottom right screen corner → Start screen saver
+- None
 
 ## Configuring Safari & WebKit
 - Set Safari’s home page to ‘about:blank’ for faster loading
