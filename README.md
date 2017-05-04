@@ -291,12 +291,9 @@ The following is the software that I have set as default:
 * coreutils
 * dos2unix
 * findutils
-* fortune
 * gawk
-* gifsicle
 * gnupg
 * gnu-sed
-* homebrew/dupes/grep
 * httpie
 * imagemagick (only if gitshots enabled)
 * imagesnap (only if gitshots enabled)
@@ -306,18 +303,17 @@ The following is the software that I have set as default:
 * nmap
 * openconnect
 * reattach-to-user-namespace
-* homebrew/dupes/screen
 * tmux
 * tree
-* ttyrec
 * vim --override-system-vi
 * watch
 * wget --enable-iri
 
 ## Apps
-* box-sync
-* gpgtools
+* intellij
 * iterm2
+* little-snitch
+* micro-snitch
 * sizeup
 * slack
 * the-unarchiver
@@ -325,14 +321,10 @@ The following is the software that I have set as default:
 
 ## NPM Global Modules
 
-* antic
-* buzzphrase
-* eslint
 * gulp
 * instant-markdown-d
 * npm-check
 * prettyjson
-* trash
 * vtop
 
 ## Ruby Gems
