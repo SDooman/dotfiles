@@ -216,7 +216,6 @@ The following will only happen if you agree on the prompt
 ## Configuring Safari & WebKit
 - Set Safari’s home page to ‘about:blank’ for faster loading
 - Prevent Safari from opening ‘safe’ files automatically after downloading
-- Allow hitting the Backspace key to go to the previous page in history
 - Hide Safari’s bookmarks bar by default
 - Hide Safari’s sidebar in Top Sites
 - Disable Safari’s thumbnail cache for History and Top Sites
@@ -272,7 +271,6 @@ The following will only happen if you agree on the prompt
 ## Messages
 - Disable automatic emoji substitution (i.e. use plain text smileys)
 - Disable smart quotes as it’s annoying for messages that contain code
-- Disable continuous spell checking
 
 ## SizeUp.app
 - Start SizeUp at login
@@ -288,21 +286,25 @@ The following is the software that I have set as default:
 
 * ack
 * ag
+* android-sdk
 * coreutils
 * dos2unix
 * findutils
 * gawk
 * gnupg
 * gnu-sed
+* graphviz
 * httpie
 * imagemagick (only if gitshots enabled)
 * imagesnap (only if gitshots enabled)
 * jq
+* lame
 * mas
 * moreutils
 * nmap
 * openconnect
 * reattach-to-user-namespace
+* sox
 * tmux
 * tree
 * vim --override-system-vi
@@ -310,7 +312,7 @@ The following is the software that I have set as default:
 * wget --enable-iri
 
 ## Apps
-* intellij
+* intellij-idea
 * iterm2
 * little-snitch
 * micro-snitch
@@ -320,7 +322,7 @@ The following is the software that I have set as default:
 * xquartz
 
 ## NPM Global Modules
-
+* eslint
 * gulp
 * instant-markdown-d
 * npm-check

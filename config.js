@@ -3,6 +3,7 @@ module.exports = {
     // http://conqueringthecommandline.com/book/ack_ag
     'ack',
     'ag',
+		'android-sdk',
     // Install GNU core utilities (those that come with OS X are outdated)
     // Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
     'coreutils',
@@ -17,12 +18,14 @@ module.exports = {
     // Install GNU `sed`, overwriting the built-in `sed`
     // so we can do "sed -i 's/foo/bar/' file" instead of "sed -i '' 's/foo/bar/' file"
     'gnu-sed --with-default-names',
+		'graphviz',
     // better, more recent grep
     //'homebrew/dupes/grep',
     // https://github.com/jkbrzt/httpie
     'httpie',
     // jq is a sort of JSON grep
     'jq',
+		'lame',
     // Mac App Store CLI: https://github.com/mas-cli/mas
     'mas',
     // Install some other useful utilities like `sponge`
@@ -32,6 +35,7 @@ module.exports = {
     'reattach-to-user-namespace',
     // better/more recent version of screen
     //'homebrew/dupes/screen',
+		'sox',
     'tmux',
     'tree',
     //'ttyrec',
