@@ -33,7 +33,8 @@ module.exports = {
     'moreutils',
     'nmap',
     'openconnect',
-    'reattach-to-user-namespace',
+    'python',
+		'reattach-to-user-namespace',
     // better/more recent version of screen
     //'homebrew/dupes/screen',
     'sox',
@@ -72,6 +73,7 @@ module.exports = {
     'xquartz'
   ],
   gem: [
+		'cocoapods',
     'git-up'
   ],
   npm: [
