@@ -23,9 +23,10 @@ module.exports = {
     //'homebrew/dupes/grep',
     // https://github.com/jkbrzt/httpie
     'httpie',
+    'hub',
     // jq is a sort of JSON grep
     'jq',
-		'lame',
+    'lame',
     // Mac App Store CLI: https://github.com/mas-cli/mas
     'mas',
     // Install some other useful utilities like `sponge`
@@ -35,7 +36,7 @@ module.exports = {
     'reattach-to-user-namespace',
     // better/more recent version of screen
     //'homebrew/dupes/screen',
-		'sox',
+    'sox',
     'tmux',
     'tree',
     //'ttyrec',
@@ -56,7 +57,7 @@ module.exports = {
     //'evernote',
     //'gpgtools',
     //'ireadfast',
-		'intellij-idea',
+    'intellij-idea',
     'iterm2',
     'little-snitch',
     'micro-snitch',
