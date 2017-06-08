@@ -3,7 +3,6 @@ module.exports = {
     // http://conqueringthecommandline.com/book/ack_ag
     'ack',
     'ag',
-		'android-sdk',
     // Install GNU core utilities (those that come with OS X are outdated)
     // Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
     'coreutils',
@@ -58,6 +57,7 @@ module.exports = {
     //'evernote',
     //'gpgtools',
     //'ireadfast',
+		'android-sdk',
     'intellij-idea',
     'iterm2',
     'little-snitch',
