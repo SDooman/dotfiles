@@ -21,9 +21,14 @@ alias gch="g checkout"
 alias gb="g branch"
 alias gp="g pull"
 
+# Down Dog Server Aliases
+alias gr='./gradlew'
+alias bounds='./run.sh sectionBounds'
+alias tests='./run.sh generatorTests'
+alias sync='./run.sh sync'
+
 # Alias hub as git
 eval "$(hub alias -s)"
-
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Applications/google-cloud-sdk/path.zsh.inc' ]; then source '/Applications/google-cloud-sdk/path.zsh.inc'; fi
