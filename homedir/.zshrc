@@ -11,21 +11,15 @@ plugins=(colorize git zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # git Aliases
-alias g="git"
-alias gti='echo "use g"'
-alias gut='echo "use g"'
-
 alias gs="g status"
 alias gac="g add . && g commit -m "
-alias gch="g checkout"
-alias gb="g branch"
-alias gp="g pull"
 
 # Down Dog Server Aliases
 alias gr='./gradlew'
 alias bounds='./run.sh sectionBounds'
 alias tests='./run.sh generatorTests'
 alias sync='./run.sh sync'
+alias sclean='g checkout -- .idea/modules/*.iml'
 
 # Alias hub as git
 eval "$(hub alias -s)"
