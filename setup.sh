@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 ###########################
 # This script installs software necessary
 # for Down Dog development.
@@ -104,13 +106,6 @@ else
   brew upgrade
   ok "brews updated..."
 fi
-
-###################################
-# install brew cask (UI Packages) #
-###################################
-
-bot "Installing cask"
-brew tap homebrew/cask
 
 #####################
 # Homebrew Installs #
