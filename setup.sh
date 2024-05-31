@@ -119,7 +119,6 @@ brew tap homebrew/cask
 bot "Installing Brew Utilities"
 
 require_brew git
-require_brew gradle
 require_brew wget
 require_brew ffmpeg
 require_brew awscli
@@ -130,9 +129,7 @@ require_brew awscli
 
 bot "Installing Cask Utilities"
 
-require_brew figma
-require_brew github
-require_brew google-chrome
 require_brew intellij-idea
 require_brew sublime-text
+require_brew spotify
 
