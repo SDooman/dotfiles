@@ -113,10 +113,11 @@ fi
 
 bot "Installing Brew Utilities"
 
+require_brew awscli
+require_brew ffmpeg
+require_brew fish
 require_brew git
 require_brew wget
-require_brew ffmpeg
-require_brew awscli
 
 #################
 # Cask Installs #
